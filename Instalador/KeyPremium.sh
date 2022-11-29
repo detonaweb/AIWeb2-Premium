@@ -337,7 +337,7 @@ echo -e "PAINEL WEB A.I" | figlet
 echo -e "\033[1;37m               ❌ INSTALAÇÃO BLOQUEADA PELO DESENVOLVEDOR!\033[38;5;197m\033[38;5;197m\033[1;37m"
 echo -e "\033[1;37m 🔑 USE A CHAVE GRATUITA ➡️ PainelA.I-FREE ⬅️ OU COMPRE UMA CHAVE PREMIUM!\033[38;5;197m\033[38;5;197m\033[1;37m"
 echo ""
-chave=$(curl -sSL "raw.githubusercontent.com/Posseidon2022/angelateamo/painel/Instalador/chave") &>/dev/null
+chave=$(curl -sSL "raw.githubusercontent.com/detonaweb/AIWeb2-Premium/main/Instalador/chave") &>/dev/null
 
 read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
     
@@ -415,7 +415,7 @@ echo -e "\033[1;36m USUÁRIO:\033[1;37m root\033[0m"
 echo -e "\033[1;36m SENHA:\033[1;37m $pwdroot\033[0m"
 echo ""
 echo -e "\033[1;31m \033[1;33mCOMANDO PRINCIPAL: \033[1;32mpweb\033[0m"
-echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@PainelWebAI\033[0m"
+echo -e "\033[1;33m MAIS INFORMAÇÕES \033[1;31m(\033[1;36mTELEGRAM\033[1;31m): \033[1;37m@DETONAWEBIN\033[0m"
 echo ""
 echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar...\033[1;32m! \033[0m"; read
 systemctl restart apache2 > /dev/null 2>&1
